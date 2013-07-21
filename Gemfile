@@ -7,6 +7,9 @@ group :development do
   gem 'sqlite3', '1.3.7'
 end
 
+gem 'execjs'
+gem 'therubyracer', :platforms => :ruby
+
 # Use SCSS for stylesheets
 gem 'sass-rails', '4.0.0'
 

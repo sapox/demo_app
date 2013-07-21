@@ -1,4 +1,8 @@
 DemoApp::Application.routes.draw do
+  resources :microposts
+
+  resources :usuarios
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -53,4 +57,31 @@ DemoApp::Application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
+  def index
+
+  end
+
+  def show
+
+  end
+
+  def new
+
+  end
+
+  def create
+
+  end
+
+  def edit
+
+  end
+
+  def update
+
+  end
+
+  def destroy
+
+  end
 end
